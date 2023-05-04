@@ -2,8 +2,8 @@ from pythonforandroid.recipe import CythonRecipe
 
 
 class PyProjRecipe(CythonRecipe):
-    version = '3.5.0'
-    url = 'https://github.com/pyproj4/pyproj/archive/refs/tags/3.5.0.zip'
+    version = '2.6.1'
+    url = 'https://github.com/pyproj4/pyproj/archive/refs/tags/v2.6.1rel.zip'
     depends = ['setuptools']
     call_hostpython_via_targetpython = False
 
